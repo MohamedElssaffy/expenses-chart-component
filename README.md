@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.png)
-![](./active-state.png)
+![Preview](./preview.png)
+![Active](./active-state.png)
 
 ### Links
 
-- Solution URL: [Git Repo]()
-- Live Site URL: [Go Live]()
+- Solution URL: [Git Repo](https://github.com/MohamedElssaffy/expenses-chart-component)
+- Live Site URL: [Go Live](https://mohamedelssaffy.github.io/expenses-chart-component/)
 
 ## My process
 
