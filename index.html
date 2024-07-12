@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Expenses chart component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="balance">
+        <p>My balance</p>
+        <span>&dollar;</span>
+      </div>
+      <div>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <div class="spend">Spending - Last 7 days</div>
+      <div class="chart">
+        <div class="mon">
+          <div><span>&dollar;</span></div>
+          <span>mon</span>
+        </div>
+        <div class="tue">
+          <div><span>&dollar;</span></div>
+          <span>tue</span>
+        </div>
+        <div class="wed">
+          <div><span>&dollar;</span></div>
+          <span>wed</span>
+        </div>
+        <div class="thu">
+          <div><span>&dollar;</span></div>
+          <span>thu</span>
+        </div>
+        <div class="fri">
+          <div><span>&dollar;</span></div>
+          <span>fri</span>
+        </div>
+        <div class="sat">
+          <div><span>&dollar;</span></div>
+          <span>sat</span>
+        </div>
+        <div class="sun">
+          <div><span>&dollar;</span></div>
+          <span>sun</span>
+        </div>
+      </div>
+      <div class="total">
+        <div class="curr-month">
+          <p>Total this month</p>
+          <span>&dollar;</span>
+        </div>
+        <div class="diff">
+          <span>+2.4%</span>
+          <p>from last month</p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

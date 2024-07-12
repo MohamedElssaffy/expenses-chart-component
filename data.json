@@ -1,0 +1,13 @@
+{
+  "balance": 921.48,
+  "days": {
+    "mon": { "amount": 17.45 },
+    "tue": { "amount": 34.91 },
+    "wed": { "amount": 52.36 },
+    "thu": { "amount": 31.07 },
+    "fri": { "amount": 23.39 },
+    "sat": { "amount": 43.28 },
+    "sun": { "amount": 25.48 }
+  },
+  "monthAmount": 478.33
+}
